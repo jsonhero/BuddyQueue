@@ -1,0 +1,72 @@
+        <div class='container mid' id='home'>
+          <div class='row'>
+            <div class='col-md-8 col-md-offset-2'>
+              <div class="row">
+                 <div class="alert alert-danger" role="alert">
+                    <i class="fa fa-exclamation-circle"></i><span class="sr-only">Error:</span>
+                    <label id="error">Enter a valid email address</label>
+                 </div>
+              </div>
+              <div class='row'>
+                <header>
+                  <h1 class='text-center'>Buddy Queue <span class='site-state'>Alpha</span></h1>
+                  <p class='lead text-center'>
+                    Find people to play with all over the globe!
+                  </p>
+                </header>
+                <form role='form'>
+                  <div class='input-group input-group-lg'>
+                    <div class='input-group-btn' role='group'>
+                      <div class='btn-group' role='group'>
+                        <button type='button' class='btn btn-primary btn-lg dropdown-toggle' data-toggle='dropdown' aria-haspopup="true" aria-expanded="true" id="dropdownMenu1">
+                          <span class='option' id='game'>Smite</span> <span class='caret'></span>
+                        </button>
+                        <ul id='option-game' class='dropdown-menu' aria-labelledby="dropdownMenu1">
+                          <li data-type='Smite'><a>Smite</a></li>
+                          <li data-type='LoL'><a>League of Legends</a></li>
+                          <!--<li data-type='Dota'><a>Dota</a></li>-->
+                        </ul>
+                      </div>
+                      <div class='btn-group' role='group'>
+                        <button type='button' class='btn btn-primary btn-lg dropdown-toggle' data-toggle='dropdown' id="dropdownMenu2">
+                          <span class='option' id='partyCount'>2</span> <span class='caret'></span>
+                        </button>
+                        <ul id='option-partyCount' class='dropdown-menu' aria-labelledby="dropdownMenu2">
+                          <li data-count='2'><a>Party Count: 2</a></li>
+                          <li data-count='3'><a>Party Count: 3</a></li>
+                          <li data-count='4'><a>Party Count: 4</a></li>
+                          <li data-count='5'><a>Party Count: 5</a></li>
+                        </ul>
+                      </div>
+                      <div class='btn-group' role='group' id="region-lol">
+                        <button type='button' class='btn btn-primary btn-lg dropdown-toggle' data-toggle='dropdown' id="dropdownMenu3">
+                          <span class='option' id='regionLol'>NA</span> <span class='caret'></span>
+                        </button>
+                        <ul id='option-regionLol' class='dropdown-menu' aria-labelledby="dropdownMenu3">
+                          <li data-type='BR'><a>Brazil</a></li>
+                          <li data-type='EUNE'><a>Europe Nordic and East</a></li>
+                          <li data-type='EUW'><a>Europe West</a></li>
+                          <li data-type='KR'><a>Korea</a></li>
+                          <li data-type='LAN'><a>Latin America North</a></li>
+                          <li data-type='LAS'><a>Latin America South</a></li>
+                          <li data-type='NA'><a>North America</a></li>
+                          <li data-type='OCE'><a>Oceania</a></li>
+                          <li data-type='RU'><a>Russia</a></li>
+                          <li data-type='TR'><a>Turkey</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <input id='searchEntry' placeholder='Enter username...' class='form-control' type='text' maxlength='32'>
+                    
+                    <div class='input-group-btn'>
+                      <button id='submitSearch' type='button' class='btn btn-primary btn-lg'><i class="fa fa-search"></i> <span class='option'>Search</span></button>
+                    </div>
+                  </div>
+                </form>
+                <p style='margin-top: 10px;'class='text-center'>
+                  Site under construction..
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
