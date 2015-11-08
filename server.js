@@ -8,7 +8,7 @@ var fs = require('fs');
 var renderer = require('./renderer.js');
 
 //Constants
-var SMITE = "smite", LOL = "lol", SMITE_DEV_ID = "1561", SMITE_AUTH_KEY = "5F785A84D2E54E8BB311E931DDB08C1E", LOL_AUTH_KEY="?api_key=1b4ae23b-56b2-4cda-a35e-e465609a6ad1";
+var SMITE = "smite", LOL = "lol", SMITE_DEV_ID = "XXXX", SMITE_AUTH_KEY = "XXXXXXXXXXXXXXXXXXX", LOL_AUTH_KEY="XXXXXXXXXXXXXXXXXXXX";
 //Clients
 var clients = {}, clientCount = 0;
 //Session stuff
